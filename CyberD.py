@@ -57,7 +57,7 @@ if open=="1":
         social_boxop()
     elif choose=="18":
         osi_igop()
-    elif choose=="18":
+    elif choose=="19":
         cmatrixop()
     
 
@@ -114,7 +114,7 @@ elif open=="2":
         social_box()
     elif choose=="18":
         osi_ig()
-    elif choose=="18":
+    elif choose=="19":
         cmatrix()
 
 # fixed nochange
