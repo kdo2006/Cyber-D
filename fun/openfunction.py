@@ -241,7 +241,13 @@ def osi_igop():
             os.system("python3 main.py -u " + userid)
         elif ask=="n":
             os.system("python3 CyberD.py")
-
+def cmatrixop():
+    user=input(colored("Do you want to cmatrix?(y/n):", "red"))
+    if user=="y":
+        os.system("cmatrix")
+    elif user=="n":
+        os.system("clear")
+        os.system("python3 CyberD.py")
 
 # fixed no change
 def exitop():

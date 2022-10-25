@@ -244,7 +244,18 @@ def osi_ig():
         os.system("clear")
         os.system("python3 CyberD.py")
 
-
+def cmatrix():
+    user=input(colored("Do you want to cmatrix?(y/n):", "red"))
+    if user=="y":
+        os.system("pkg install cmatrix")
+        print(colored(success,"green"))
+        time.sleep(0.9)
+        os.system("cmatrix")
+    elif user=="n":
+        print(colored(can,"green"))
+        time.sleep(0.9)
+        os.system("clear")
+        os.system("python3 CyberD.py")
 
 
 

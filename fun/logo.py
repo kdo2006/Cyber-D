@@ -7,12 +7,16 @@ logo= """
        |___/                     [ ~v1.2] 
                                                                              
  """
+# social media
 
 social_media= """
- ~ Instagram: https://instagram.com/kdo_shashank
- ~ Whatsapp: https://wa.me/+9779746554757
- ~ Telegram: https://t.me/kdobhai
+ ~ Instagram    : https://instagram.com/kdo_shashank
+ ~ Whatsapp     : https://wa.me/+9779746554757
+ ~ Telegram     : https://t.me/kdobhai
+ ~ Cyber.Arpan  :
 """
+
+# main menu
 tools="""
 {1}--Zphisher
 {2}--Red Hawk
@@ -32,10 +36,12 @@ tools="""
 {16}--Slowloris(D-Dos)
 {17}--Social Box
 {18}--osi.ig
+{19}--cmatrix
 {0}--Update
 {00}--about
 {999}--exit
  """
+
 
 cont="""
 {1}--Whatsapp
@@ -44,6 +50,8 @@ cont="""
 {4}--Youtube
 """
 
+
+# open menu
 toolsop="""
 {1}--Zphisher
 {2}--Red Hawk
@@ -63,11 +71,12 @@ toolsop="""
 {16}--Slowloris(D-Dos)
 {17}--Social Box
 {18}--osi.ig
+{19}--cmatrix
 {0}--Update
 {00}--about
 {999}--exit
  """
-
+# uninstall menu
 toolsun="""
 {1}--Zphisher
 {2}--Red Hawk
