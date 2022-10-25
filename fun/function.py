@@ -263,8 +263,7 @@ def CamPhisher():
         os.system("cd $HOME && cd .tools && git clone https://github.com/techchipnet/CamPhish")
         print(colored(success,"green"))
         time.sleep(0.9)
-        os.system(" cd $HOME && cd .tools && cd CamPhish")
-        os.system("bash camphish.sh")
+        os.system(" cd $HOME && cd .tools && cd CamPhish && bash camphish.sh")
     elif user=="n":
         print(colored(can,"green"))
         time.sleep(0.9)

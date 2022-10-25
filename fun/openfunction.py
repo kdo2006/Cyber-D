@@ -261,8 +261,7 @@ def CamPhisherop():
     elif user=="n":
         ask=input(colored("Do you want to install it:(y/n):","yellow"))
         if ask == "y":
-            os.system(" cd $HOME && cd .tools && cd CamPhish")
-            os.system("bash camphish.sh")
+            os.system(" cd $HOME && cd .tools && cd CamPhish && bash camphish.sh")
             print(colored(success,"green"))
             time.sleep(0.9)
             os.system(" cd $HOME && cd .tools && cd CamPhish")
