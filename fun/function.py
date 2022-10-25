@@ -169,7 +169,8 @@ def social_box():
         os.system("python3 CyberD.py")
 
 def update():
-    os.system("cd fun && python3 Cyber-D.py")
+    os.system("cd fun && python3 update.py")
+    
 def exit():
     print(colored("Thanks","red") + colored(" For","green") + colored(" Using the Tool","blue"))
     os.system("exit")
