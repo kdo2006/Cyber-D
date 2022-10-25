@@ -1,7 +1,6 @@
 import os
 from time import time
 import time
-from turtle import update
 from termcolor import colored
 
 updateing="""
