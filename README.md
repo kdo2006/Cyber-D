@@ -30,4 +30,3 @@
 > git clone https://github.com/kdo2064/Cyber-D.git<br>
 > cd Cyber-D<br>
 > python3 setup.py<br>
-> python3 cyberD.py<br></h4>
