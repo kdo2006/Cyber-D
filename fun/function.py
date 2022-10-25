@@ -297,7 +297,7 @@ def about():
         os.system("clear")
         os.system("python3 CyberD.py")
 def uninstall():
-    os.system("cd $HOME && rm -rf Cyber-D && rf -rf .tools")
+    os.system("cd $HOME && rm -rf Cyber-D && rm -rf .tools")
     print(colored(uninstalled,"red"))
     time.sleep(0.9)
     os.system("cd $HOME")
