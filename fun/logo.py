@@ -13,7 +13,7 @@ social_media= """
  ~ Instagram    : https://instagram.com/kdo_shashank
  ~ Whatsapp     : https://wa.me/+9779746554757
  ~ Telegram     : https://t.me/kdobhai
- ~ Cyber.Arpan  : https://www.instagram.com/cyber.arpan/
+ ~ Cyber.Arpan  : https://www.instagram.com/cyber.arpan
 """
 
 # main menu
@@ -37,6 +37,7 @@ tools="""
 {17}--Social Box
 {18}--osi.ig
 {19}--cmatrix
+{20}--CamPhish
 {0}--Update
 {00}--about
 {999}--exit
@@ -72,6 +73,7 @@ toolsop="""
 {17}--Social Box
 {18}--osi.ig
 {19}--cmatrix
+{20}--CamPhish
 {0}--Update
 {00}--about
 {999}--exit
@@ -96,6 +98,8 @@ toolsun="""
 {16}--Slowloris(D-Dos)
 {17}--Social Box
 {18}--osi.ig
+{19}--cmatrix
+{20}--CamPhish
 {0}--Update
 {00}--about
 {000}--uninstall
@@ -134,7 +138,7 @@ any misuse of this toolkit !
 updateab="""
 About Update:"""
 aboutupdate="""
-added new tool, some bug fixed
+added new tool(ogi.ig, camphisher and Cmatrix), some bug fixed
 """
 
 uninstalled="""

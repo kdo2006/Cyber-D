@@ -1,6 +1,7 @@
 import os
 from termcolor import colored
-
+import time
+from fun.logo import success
 def zphisherop():
     user=input(colored("Do you have install zphisher?(y/n):", "red"))
     if user=="y":
@@ -242,12 +243,33 @@ def osi_igop():
         elif ask=="n":
             os.system("python3 CyberD.py")
 def cmatrixop():
-    user=input(colored("Do you want to cmatrix?(y/n):", "red"))
+    user=input(colored("Do you have install Cmatrix?(y/n):", "red"))
     if user=="y":
-        os.system("cmatrix")
+        os.system("cmatric")
     elif user=="n":
-        os.system("clear")
-        os.system("python3 CyberD.py")
+        ask=input(colored("Do you want to install it:(y/n):","yellow"))
+        if ask == "y":
+            os.system("pkg install cmatrix && cmatrix")
+        elif ask=="n":
+            os.system("python3 CyberD.py")
+
+def CamPhisherop():
+    user=input(colored("Do you have install CamPhish?(y/n):", "red"))
+    if user=="y":
+        os.system(" cd $HOME && cd .tools && cd CamPhish")
+        os.system("bash camphish.sh")
+    elif user=="n":
+        ask=input(colored("Do you want to install it:(y/n):","yellow"))
+        if ask == "y":
+            os.system(" cd $HOME && cd .tools && cd CamPhish")
+            os.system("bash camphish.sh")
+            print(colored(success,"green"))
+            time.sleep(0.9)
+            os.system(" cd $HOME && cd .tools && cd CamPhish")
+            os.system("bash camphish.sh")
+        elif ask=="n":
+            os.system("python3 CyberD.py")
+
 
 # fixed no change
 def exitop():

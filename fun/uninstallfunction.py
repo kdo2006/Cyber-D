@@ -188,13 +188,39 @@ def social_boxun():
 def osi_igun():
     user=input(colored("Do you want to uninstall it?(y/n):", "red"))
     if user=="y":
-        os.system("cd $HOME && cd .tools && rm -rf cd osi.ig")
+        os.system("cd $HOME && cd .tools && rm -rf osi.ig")
         print(colored(uninstalled,"red"))
         time.sleep(0.9)
         os.system("python3 CyberD.py")
     elif user=="n":
         os.system("clear")
         os.system("python3 CyberD.py")
+
+def cmatrixun():
+    user=input(colored("Do you want to uninstall it?(y/n):", "red"))
+    if user=="y":
+        os.system("rm -rf cmatrix")
+        print(colored(uninstalled,"red"))
+        time.sleep(0.9)
+        os.system("python3 CyberD.py")
+    elif user=="n":
+        os.system("clear")
+        os.system("python3 CyberD.py")
+
+def CamPhisherun():
+    user=input(colored("Do you want to uninstall it?(y/n):", "red"))
+    if user=="y":
+        os.system(" cd $HOME && cd .tools && rm -rf CamPhish")
+        print(colored(uninstalled,"red"))
+        time.sleep(0.9)
+        os.system("python3 CyberD.py")
+    elif user=="n":
+        os.system("clear")
+        os.system("python3 CyberD.py")
+
+
+
+
 
 
 # fixed No change
