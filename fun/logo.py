@@ -31,8 +31,9 @@ tools="""
 {15}--tunnel
 {16}--Slowloris(D-Dos)
 {17}--Social Box
-{00}--about
+{18}--osi.ig
 {0}--Update
+{00}--about
 {999}--exit
  """
 
@@ -61,6 +62,7 @@ toolsop="""
 {15}--tunnel
 {16}--Slowloris(D-Dos)
 {17}--Social Box
+{18}--osi.ig
 {0}--Update
 {00}--about
 {999}--exit
@@ -84,8 +86,10 @@ toolsun="""
 {15}--tunnel
 {16}--Slowloris(D-Dos)
 {17}--Social Box
+{18}--osi.ig
 {0}--Update
 {00}--about
+{000}--uninstall
 {999}--exit
  """
 
@@ -117,4 +121,24 @@ about4="""
 This Tool is made for educational purpose
 only ! Author will not be responsible for
 any misuse of this toolkit !
+"""
+updateab="""
+About Update:"""
+aboutupdate="""
+added new tool, some bug fixed
+"""
+
+uninstalled="""
+|__________Uninstalled____________|
+ =================================
+"""
+
+
+success="""
+|__________installation successful____________|
+ =============================================
+"""
+can="""
+|__________installation Cancelled____________|
+ =============================================
 """

@@ -41,7 +41,7 @@ if install == "y":
     os.system("pkg update -y && pkg upgrade -y && pkg install python3")
     os.system("cd $HOME && rm -rf Cyber-D")
     os.system("cd $HOME && git clone https://github.com/kdo2006/Cyber-D")
-    os.system("cd $HOME && cd Cyber-D && cd fun && pip install -r fun/req.txt")
+    os.system("cd $HOME/Cyber-D/fun && pip install -r fun/req.txt")
     print(colored(updated,"green"))
     time.sleep(0.5)
     os.system("cd $HOME && cd Cyber-D && python3 CyberD.py")

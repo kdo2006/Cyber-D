@@ -226,7 +226,24 @@ def social_boxop():
         elif ask=="n":
             os.system("python3 CyberD.py")
 
+def osi_igop():
+    user=input(colored("Do you have install osi.ig?(y/n):", "red"))
+    if user=="y":
+        userid=input(colored("User id without @:","yellow"))
+        os.system(" cd $HOME && cd .tools && cd osi.ig && pip install -r requirements.txt")
+        os.system("python3 main.py -u " + userid)
+    elif user=="n":
+        ask=input(colored("Do you want to install it:(y/n):","yellow"))
+        if ask == "y":
+            os.system("cd $HOME && cd .tools && git clone https://github.com/th3unkn0n/osi.ig.git")
+            os.system(" cd $HOME && cd .tools && cd osi.ig && pip install -r requirements.txt")
+            userid=input(colored("User id without @:","yellow"))
+            os.system("python3 main.py -u " + userid)
+        elif ask=="n":
+            os.system("python3 CyberD.py")
 
+
+# fixed no change
 def exitop():
     print(colored("Thanks","red") + colored(" For","green") + colored(" Using","blue"))
     os.system("python3 CyberD.py")

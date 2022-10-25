@@ -6,13 +6,12 @@ import time
 from fun.logo import logo, social_media, tools, toolsop, startedup, toolsun
 
 #import openfunction
-from fun.openfunction import zphisherop, Red_Hawkop, ngrokop, MaskPhishop, infectop, AndroRatop, IPTrackerop, PyPhisherop, tunnelop, kalimuxop, exitop, PhoneInfogaop, T_Bomberop, metasploitop, mrphishop, IpHackop, Slowlorisop, social_boxop
+from fun.openfunction import zphisherop, Red_Hawkop, ngrokop, MaskPhishop, infectop, AndroRatop, IPTrackerop, PyPhisherop, tunnelop, kalimuxop, exitop, PhoneInfogaop, T_Bomberop, metasploitop, mrphishop, IpHackop, Slowlorisop, social_boxop, osi_igop
 
 # import uninstall function
-from fun.uninstallfunction import zphisherun, Red_Hawkun, ngrokun, MaskPhishun,infectun,AndroRatun,IPTrackerun,PyPhisherun,kalimuxun,PhoneInfogaun,metasploitun,T_Bomberun,mrphishun,IpHackun,tunnelun,Slowlorisun,social_boxun
-
+from fun.uninstallfunction import osi_igun, zphisherun, Red_Hawkun, ngrokun, MaskPhishun,infectun,AndroRatun,IPTrackerun,PyPhisherun,kalimuxun,PhoneInfogaun,metasploitun,T_Bomberun,mrphishun,IpHackun,tunnelun,Slowlorisun,social_boxun, osi_igun
 # import function
-from fun.function import zphisher, Red_Hawk, ngrok, MaskPhish, infect, AndroRat, IPTracker, PyPhisher, kalimux, PhoneInfoga, T_Bomber, metasploit, mrphish, IpHack, tunnel, Slowloris, social_box, about, exit,update
+from fun.function import zphisher, Red_Hawk, ngrok, MaskPhish, infect, AndroRat, IPTracker, PyPhisher, kalimux, PhoneInfoga, T_Bomber, metasploit, mrphish, IpHack, tunnel, Slowloris, social_box,osi_ig, about, exit,update, uninstall
 
 # main coding
 os.system("clear")
@@ -56,6 +55,8 @@ if open=="1":
         Slowlorisop()
     elif choose=="17":
         social_boxop()
+    elif choose=="18":
+        osi_igop()
 
 # fixed nochange
     elif choose == "0":
@@ -108,6 +109,8 @@ elif open=="2":
         Slowloris()
     elif choose=="17":
         social_box()
+    elif choose=="18":
+        osi_ig()
 
 # fixed nochange
     elif choose=="00":
@@ -161,8 +164,11 @@ elif open=="3":
         Slowlorisun()
     elif choose=="17":
         social_boxun()
-    
+    elif choose=="18":
+        osi_igun()
     # fixed no change
+    elif choose=="000":
+        uninstall()
     elif choose=="00":
         about()
     elif choose == "0":
