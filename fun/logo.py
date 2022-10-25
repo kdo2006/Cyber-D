@@ -4,16 +4,16 @@ logo= """
  | |  | | | | '_ \ / _ \ '__|____| | | |
  | |__| |_| | |_) |  __/ | |_____| |_| |
   \____\__, |_.__/ \___|_|       |____/ 
-       |___/                     [ ~v1.2] 
+       |___/                     [ ~v1.3] 
                                                                              
  """
 # social media
 
 social_media= """
- ~ Instagram    : https://instagram.com/kdo_shashank
- ~ Whatsapp     : https://wa.me/+9779746554757
- ~ Telegram     : https://t.me/kdobhai
- ~ Cyber.Arpan  : https://www.instagram.com/cyber.arpan
+ ~ Instagram: https://instagram.com/kdo_shashank
+ ~ Whatsapp: https://wa.me/+9779746554757
+ ~ Telegram: https://t.me/kdobhai
+ ~ Cyber.Arpan: https://www.instagram.com/cyber.arpan
 """
 
 # main menu
