@@ -268,6 +268,20 @@ def CamPhisherop():
             os.system("bash camphish.sh")
         elif ask=="n":
             os.system("python3 CyberD.py")
+    
+def DarkFlyop():
+    user=input(colored("Do you have install DarkFly?(y/n):", "red"))
+    if user=="y":
+        os.system("DarkFly")
+    elif user=="n":
+        ask=input(colored("Do you want to install it:(y/n):","yellow"))
+        if ask == "y":
+            os.system("pkg install python2 && cd $HOME && cd .tools && git clone https://github.com/Ranginang67/DarkFly-Tool")
+            print(colored(success,"green"))
+            time.sleep(0.9)
+            os.system(" cd $HOME && cd .tools && cd DarkFly-Tool && python2 install.py")
+        elif ask=="n":
+            os.system("python3 CyberD.py")
 
 
 # fixed no change

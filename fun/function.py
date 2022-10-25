@@ -269,7 +269,19 @@ def CamPhisher():
         time.sleep(0.9)
         os.system("clear")
         os.system("python3 CyberD.py")
-
+def DarkFly():
+    user=input(colored("Do you want to Rudrastra(M?(y/n):", "red"))
+    if user=="y":
+        os.system("pkg install python2")
+        os.system(" cd $HOME && cd .tools && git clone https://github.com/Ranginang67/DarkFly-Tool")
+        print(colored(success,"green"))
+        time.sleep(0.9)
+        os.system(" cd $HOME && cd .tools && cd DarkFly-Tool && python2 install.py")
+    elif user=="n":
+        print(colored(can,"green"))
+        time.sleep(0.9)
+        os.system("clear")
+        os.system("python3 CyberD.py")
 
 
 

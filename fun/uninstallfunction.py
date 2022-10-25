@@ -218,7 +218,16 @@ def CamPhisherun():
         os.system("clear")
         os.system("python3 CyberD.py")
 
-
+def  DarkFlyun():
+    user=input(colored("Do you want to uninstall it?(y/n):", "red"))
+    if user=="y":
+        os.system(" cd $HOME && cd .tools && rm -rf DarkFly-Tool")
+        print(colored(uninstalled,"red"))
+        time.sleep(0.9)
+        os.system("python3 CyberD.py")
+    elif user=="n":
+        os.system("clear")
+        os.system("python3 CyberD.py")
 
 
 

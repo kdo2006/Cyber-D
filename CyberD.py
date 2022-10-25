@@ -6,12 +6,12 @@ import time
 from fun.logo import logo, social_media, tools, toolsop, startedup, toolsun
 
 #import openfunction
-from fun.openfunction import zphisherop, Red_Hawkop, ngrokop, MaskPhishop, infectop, AndroRatop, IPTrackerop, PyPhisherop, tunnelop, kalimuxop, exitop, PhoneInfogaop, T_Bomberop, metasploitop, mrphishop, IpHackop, Slowlorisop, social_boxop, osi_igop, cmatrixop, CamPhisherop
+from fun.openfunction import DarkFlyop ,zphisherop, Red_Hawkop, ngrokop, MaskPhishop, infectop, AndroRatop, IPTrackerop, PyPhisherop, tunnelop, kalimuxop, exitop, PhoneInfogaop, T_Bomberop, metasploitop, mrphishop, IpHackop, Slowlorisop, social_boxop, osi_igop, cmatrixop, CamPhisherop
 
 # import uninstall function
-from fun.uninstallfunction import osi_igun, zphisherun, Red_Hawkun, ngrokun, MaskPhishun,infectun,AndroRatun,IPTrackerun,PyPhisherun,kalimuxun,PhoneInfogaun,metasploitun,T_Bomberun,mrphishun,IpHackun,tunnelun,Slowlorisun,social_boxun, osi_igun, cmatrixun,CamPhisherun
+from fun.uninstallfunction import osi_igun,DarkFlyun, zphisherun, Red_Hawkun, ngrokun, MaskPhishun,infectun,AndroRatun,IPTrackerun,PyPhisherun,kalimuxun,PhoneInfogaun,metasploitun,T_Bomberun,mrphishun,IpHackun,tunnelun,Slowlorisun,social_boxun, osi_igun, cmatrixun,CamPhisherun
 # import function
-from fun.function import zphisher, Red_Hawk, ngrok, MaskPhish, infect, AndroRat, IPTracker, PyPhisher, kalimux, PhoneInfoga, T_Bomber, metasploit, mrphish, IpHack, tunnel, Slowloris, social_box,osi_ig, about, exit,update, uninstall, cmatrix, CamPhisher,check
+from fun.function import zphisher,DarkFly, Red_Hawk, ngrok, MaskPhish, infect, AndroRat, IPTracker, PyPhisher, kalimux, PhoneInfoga, T_Bomber, metasploit, mrphish, IpHack, tunnel, Slowloris, social_box,osi_ig, about, exit,update, uninstall, cmatrix, CamPhisher,check
 
 # main coding
 os.system("clear")
@@ -61,6 +61,8 @@ if open=="1":
         cmatrixop()
     elif choose=="20":
         CamPhisherop()
+    elif choose=="21":
+        DarkFlyop()
     
 
 # fixed nochange
@@ -120,6 +122,9 @@ elif open=="2":
         cmatrix()
     elif choose=="20":
         CamPhisher()
+    elif choose=="21":
+        DarkFly()
+
 
 # fixed nochange
     elif choose=="00":
@@ -179,7 +184,8 @@ elif open=="3":
         cmatrixun() 
     elif choose=="20":
         CamPhisherun() 
-
+    elif choose=="21":
+        DarkFlyun()
 
    
     # fixed no change

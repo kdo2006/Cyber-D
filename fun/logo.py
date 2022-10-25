@@ -38,6 +38,7 @@ tools="""
 {18}--osi.ig
 {19}--cmatrix
 {20}--CamPhish
+{21}--DarkFly
 {0}--Update
 {00}--about
 {999}--exit
@@ -74,6 +75,7 @@ toolsop="""
 {18}--osi.ig
 {19}--cmatrix
 {20}--CamPhish
+{21}--DarkFly
 {0}--Update
 {00}--about
 {999}--exit
@@ -100,6 +102,7 @@ toolsun="""
 {18}--osi.ig
 {19}--cmatrix
 {20}--CamPhish
+{21}--DarkFly
 {0}--Update
 {00}--about
 {000}--uninstall
