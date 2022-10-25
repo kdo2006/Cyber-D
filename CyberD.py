@@ -6,12 +6,12 @@ import time
 from fun.logo import logo, social_media, tools, toolsop, startedup, toolsun
 
 #import openfunction
-from fun.openfunction import zphisherop, Red_Hawkop, ngrokop, MaskPhishop, infectop, AndroRatop, IPTrackerop, PyPhisherop, tunnelop, kalimuxop, exitop, PhoneInfogaop, T_Bomberop, metasploitop, mrphishop, IpHackop, Slowlorisop, social_boxop, osi_igop
+from fun.openfunction import zphisherop, Red_Hawkop, ngrokop, MaskPhishop, infectop, AndroRatop, IPTrackerop, PyPhisherop, tunnelop, kalimuxop, exitop, PhoneInfogaop, T_Bomberop, metasploitop, mrphishop, IpHackop, Slowlorisop, social_boxop, osi_igop, cmatrixop
 
 # import uninstall function
 from fun.uninstallfunction import osi_igun, zphisherun, Red_Hawkun, ngrokun, MaskPhishun,infectun,AndroRatun,IPTrackerun,PyPhisherun,kalimuxun,PhoneInfogaun,metasploitun,T_Bomberun,mrphishun,IpHackun,tunnelun,Slowlorisun,social_boxun, osi_igun
 # import function
-from fun.function import zphisher, Red_Hawk, ngrok, MaskPhish, infect, AndroRat, IPTracker, PyPhisher, kalimux, PhoneInfoga, T_Bomber, metasploit, mrphish, IpHack, tunnel, Slowloris, social_box,osi_ig, about, exit,update, uninstall
+from fun.function import zphisher, Red_Hawk, ngrok, MaskPhish, infect, AndroRat, IPTracker, PyPhisher, kalimux, PhoneInfoga, T_Bomber, metasploit, mrphish, IpHack, tunnel, Slowloris, social_box,osi_ig, about, exit,update, uninstall, cmatrix
 
 # main coding
 os.system("clear")
@@ -57,6 +57,9 @@ if open=="1":
         social_boxop()
     elif choose=="18":
         osi_igop()
+    elif choose=="18":
+        cmatrixop()
+    
 
 # fixed nochange
     elif choose == "0":
@@ -111,6 +114,8 @@ elif open=="2":
         social_box()
     elif choose=="18":
         osi_ig()
+    elif choose=="18":
+        cmatrix()
 
 # fixed nochange
     elif choose=="00":
