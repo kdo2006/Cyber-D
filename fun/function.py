@@ -301,3 +301,7 @@ def uninstall():
     print(colored(uninstalled,"red"))
     time.sleep(0.9)
     os.system("cd $HOME")
+def check():
+    os.system("cd $HOME && cd .tools && ls")
+    time.sleep(2.5)
+    os.system("python3 CyberD.py")

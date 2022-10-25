@@ -11,7 +11,7 @@ from fun.openfunction import zphisherop, Red_Hawkop, ngrokop, MaskPhishop, infec
 # import uninstall function
 from fun.uninstallfunction import osi_igun, zphisherun, Red_Hawkun, ngrokun, MaskPhishun,infectun,AndroRatun,IPTrackerun,PyPhisherun,kalimuxun,PhoneInfogaun,metasploitun,T_Bomberun,mrphishun,IpHackun,tunnelun,Slowlorisun,social_boxun, osi_igun, cmatrixun,CamPhisherun
 # import function
-from fun.function import zphisher, Red_Hawk, ngrok, MaskPhish, infect, AndroRat, IPTracker, PyPhisher, kalimux, PhoneInfoga, T_Bomber, metasploit, mrphish, IpHack, tunnel, Slowloris, social_box,osi_ig, about, exit,update, uninstall, cmatrix, CamPhisher
+from fun.function import zphisher, Red_Hawk, ngrok, MaskPhish, infect, AndroRat, IPTracker, PyPhisher, kalimux, PhoneInfoga, T_Bomber, metasploit, mrphish, IpHack, tunnel, Slowloris, social_box,osi_ig, about, exit,update, uninstall, cmatrix, CamPhisher,check
 
 # main coding
 os.system("clear")
@@ -200,7 +200,8 @@ elif open=="3":
 
 elif open =="4":
     update()
-
+elif open=="5":
+    check()
 elif open=="00":
     exit()
 

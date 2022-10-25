@@ -111,6 +111,7 @@ startedup="""
 {2}--install Tool
 {3}--uninstall Tools
 {4}--Update
+{5}--Check Installed tools
 {0}--about
 {00}--exit
 """
