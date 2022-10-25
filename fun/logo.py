@@ -13,7 +13,7 @@ social_media= """
  ~ Instagram    : https://instagram.com/kdo_shashank
  ~ Whatsapp     : https://wa.me/+9779746554757
  ~ Telegram     : https://t.me/kdobhai
- ~ Cyber.Arpan  :
+ ~ Cyber.Arpan  : https://www.instagram.com/cyber.arpan/
 """
 
 # main menu
