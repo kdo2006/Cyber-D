@@ -6,17 +6,20 @@ import time
 from fun.logo import logo, social_media, tools, toolsop, startedup, toolsun
 
 #import openfunction
-from fun.openfunction import DarkFlyop ,zphisherop, Red_Hawkop, ngrokop, MaskPhishop, infectop, AndroRatop, IPTrackerop, PyPhisherop, tunnelop, kalimuxop, exitop, PhoneInfogaop, T_Bomberop, metasploitop, mrphishop, IpHackop, Slowlorisop, social_boxop, osi_igop, cmatrixop, CamPhisherop
-
+from fun.openfunction import *
 # import uninstall function
-from fun.uninstallfunction import osi_igun,DarkFlyun, zphisherun, Red_Hawkun, ngrokun, MaskPhishun,infectun,AndroRatun,IPTrackerun,PyPhisherun,kalimuxun,PhoneInfogaun,metasploitun,T_Bomberun,mrphishun,IpHackun,tunnelun,Slowlorisun,social_boxun, osi_igun, cmatrixun,CamPhisherun
+from fun.uninstallfunction import *
+
 # import function
-from fun.function import zphisher,DarkFly, Red_Hawk, ngrok, MaskPhish, infect, AndroRat, IPTracker, PyPhisher, kalimux, PhoneInfoga, T_Bomber, metasploit, mrphish, IpHack, tunnel, Slowloris, social_box,osi_ig, about, exit,update, uninstall, cmatrix, CamPhisher,check
+from fun.function import *
 
 # main coding
 os.system("clear")
 print(colored(logo,'blue')   + colored(social_media,'red') +colored(startedup,"green"))
 open=input(colored("Choose a Option:","yellow"))
+
+
+# Open tools
 if open=="1":
     os.system("clear")  
     print(colored(logo,'blue') + colored(social_media,'red') + colored(toolsop,'green'))
@@ -63,6 +66,8 @@ if open=="1":
         CamPhisherop()
     elif choose=="21":
         DarkFlyop()
+    elif choose=="22":
+        seekerop()
     
 
 # fixed nochange
@@ -78,6 +83,8 @@ if open=="1":
         os.system("clear")
         os.system("python3 CyberD.py")
 
+
+# installing tools
 elif open=="2":
     os.system("clear")  
     print(colored(logo,'blue') + colored(social_media,'red') + colored(tools,'green'))
@@ -124,7 +131,8 @@ elif open=="2":
         CamPhisher()
     elif choose=="21":
         DarkFly()
-
+    elif choose=="22":
+        seeker()
 
 # fixed nochange
     elif choose=="00":
@@ -139,7 +147,7 @@ elif open=="2":
         os.system("clear")
         os.system("python3 CyberD.py")
 
-
+# uninstall tools
 elif open=="3":
     os.system("clear")  
     print(colored(logo,'blue') + colored(social_media,'red') + colored(toolsun,'green'))
@@ -186,6 +194,8 @@ elif open=="3":
         CamPhisherun() 
     elif choose=="21":
         DarkFlyun()
+    elif choose=="22":
+        seekerun()
 
    
     # fixed no change

@@ -283,6 +283,19 @@ def DarkFly():
         os.system("clear")
         os.system("python3 CyberD.py")
 
+def seeker():
+    user=input(colored("Do you want to Seeker?(y/n):", "red"))
+    if user=="y":
+        os.system(" cd $HOME && cd .tools && git clone https://github.com/thewhiteh4t/seeker.git")
+        print(colored(success,"green"))
+        time.sleep(0.9)
+        os.system(" cd $HOME && cd .tools && cd seeker && chmod +x install.sh && ./install.sh")
+    elif user=="n":
+        print(colored(can,"green"))
+        time.sleep(0.9)
+        os.system("clear")
+        os.system("python3 CyberD.py")
+
 
 
 # fixed no change

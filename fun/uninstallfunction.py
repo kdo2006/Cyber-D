@@ -229,6 +229,17 @@ def  DarkFlyun():
         os.system("clear")
         os.system("python3 CyberD.py")
 
+def  seekerun():
+    user=input(colored("Do you want to uninstall it?(y/n):", "red"))
+    if user=="y":
+        os.system(" cd $HOME && cd .tools && rm -rf seeker")
+        print(colored(uninstalled,"red"))
+        time.sleep(0.9)
+        os.system("python3 CyberD.py")
+    elif user=="n":
+        os.system("clear")
+        os.system("python3 CyberD.py")
+
 
 
 

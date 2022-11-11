@@ -4,7 +4,7 @@ logo= """
  | |  | | | | '_ \ / _ \ '__|____| | | |
  | |__| |_| | |_) |  __/ | |_____| |_| |
   \____\__, |_.__/ \___|_|       |____/ 
-       |___/                     [ ~v1.3] 
+       |___/                     [ ~v1.4] 
                                                                              
  """
 # social media
@@ -39,6 +39,7 @@ tools="""
 {19}--cmatrix
 {20}--CamPhish
 {21}--DarkFly
+{22}--Seeker
 {0}--Update
 {00}--about
 {999}--exit
@@ -76,6 +77,7 @@ toolsop="""
 {19}--cmatrix
 {20}--CamPhish
 {21}--DarkFly
+{22}--Seeker
 {0}--Update
 {00}--about
 {999}--exit
@@ -103,6 +105,7 @@ toolsun="""
 {19}--cmatrix
 {20}--CamPhish
 {21}--DarkFly
+{22}--Seeker
 {0}--Update
 {00}--about
 {000}--uninstall
